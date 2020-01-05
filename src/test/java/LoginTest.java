@@ -16,7 +16,7 @@ public class LoginTest {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("http://gmail.com");
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 	
