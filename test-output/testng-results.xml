@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18791" started-at="2020-03-08T17:24:42Z" finished-at="2020-03-08T17:25:00Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@79ad8b2f]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="18791" started-at="2020-03-08T17:24:42Z" finished-at="2020-03-08T17:25:00Z">
+      <class name="runners.PositiveTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.PositiveTest@79ad8b2f]" name="setUpClass" is-config="true" duration-ms="124" started-at="2020-03-08T18:24:42Z" finished-at="2020-03-08T18:24:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@79ad8b2f]" name="feature" duration-ms="18609" started-at="2020-03-08T18:24:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-08T18:25:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Acceptance testing to validate Newspaper Page is working.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.PositiveTest@79ad8b2f]" name="tearDownClass" is-config="true" duration-ms="5" started-at="2020-03-08T18:25:00Z" finished-at="2020-03-08T18:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.PositiveTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
