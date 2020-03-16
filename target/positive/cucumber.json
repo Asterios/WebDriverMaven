@@ -1,0 +1,98 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9462085600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate Newspaper page in news247",
+        "description": "",
+        "id": "acceptance-testing-to-validate-newspaper-page-is-working.;validate-newspaper-page-in-news247",
+        "after": [
+          {
+            "result": {
+              "duration": 4870172300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 811344400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Home Page \"https://www.news247.gr/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.news247.gr/",
+                  "offset": 23
+                }
+              ],
+              "location": "NewsSteps.i_am_on_the_Home_Page(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 628646200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on newsapapers",
+            "match": {
+              "location": "NewsSteps.i_click_on_newsapapers()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3019400500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see the list of newsapapers",
+            "match": {
+              "location": "NewsSteps.i_should_see_the_list_of_newsapapers()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@News-Positive"
+          }
+        ]
+      }
+    ],
+    "name": "Acceptance testing to validate Newspaper Page is working.",
+    "description": "In order to validate that \nthe Newspaper page is working\nDoing the Acceptance Testing",
+    "id": "acceptance-testing-to-validate-newspaper-page-is-working.",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/News.Feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@News"
+      }
+    ]
+  }
+]
