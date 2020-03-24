@@ -2,38 +2,38 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19292" started-at="2020-03-16T16:02:31Z" finished-at="2020-03-16T16:02:50Z">
+  <suite name="Suite" duration-ms="10972" started-at="2020-03-24T11:20:42Z" finished-at="2020-03-24T11:20:53Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@1df82230]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.CP_Positive_Test@6a01e23]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="19292" started-at="2020-03-16T16:02:31Z" finished-at="2020-03-16T16:02:50Z">
-      <class name="runners.PositiveTest">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.PositiveTest@1df82230]" name="setUpClass" is-config="true" duration-ms="124" started-at="2020-03-16T17:02:31Z" finished-at="2020-03-16T17:02:31Z">
+    <test name="Test" duration-ms="10972" started-at="2020-03-24T11:20:42Z" finished-at="2020-03-24T11:20:53Z">
+      <class name="runners.CP_Positive_Test">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runners.CP_Positive_Test@6a01e23]" name="setUpClass" is-config="true" duration-ms="117" started-at="2020-03-24T12:20:42Z" finished-at="2020-03-24T12:20:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:runners.PositiveTest@1df82230]" name="setup" is-config="true" duration-ms="129" started-at="2020-03-16T17:02:31Z" finished-at="2020-03-16T17:02:31Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:runners.CP_Positive_Test@6a01e23]" name="setup" is-config="true" duration-ms="125" started-at="2020-03-24T12:20:42Z" finished-at="2020-03-24T12:20:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.PositiveTest@1df82230]" name="feature" duration-ms="18973" started-at="2020-03-16T17:02:31Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-16T17:02:50Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runners.CP_Positive_Test@6a01e23]" name="feature" duration-ms="10647" started-at="2020-03-24T12:20:42Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-03-24T12:20:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Acceptance testing to validate Newspaper Page is working.]]>
+                <![CDATA[Acceptance testing to validate Collateral Value Positive Test.]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.PositiveTest@1df82230]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2020-03-16T17:02:50Z" finished-at="2020-03-16T17:02:50Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runners.CP_Positive_Test@6a01e23]" name="tearDownClass" is-config="true" duration-ms="32" started-at="2020-03-24T12:20:53Z" finished-at="2020-03-24T12:20:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.PositiveTest -->
+      </class> <!-- runners.CP_Positive_Test -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

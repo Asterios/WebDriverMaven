@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="Test">
   	<classes>
-  		<class name="runners.PositiveTest"></class>
+  		<class name="runners.CP_Positive_Test"></class>
  	 </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

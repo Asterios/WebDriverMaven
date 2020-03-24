@@ -1,79 +1,79 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Features/News.Feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/Features/CP_Positive.Feature");
 formatter.feature({
   "line": 2,
-  "name": "Acceptance testing to validate Newspaper Page is working.",
-  "description": "In order to validate that \nthe Newspaper page is working\nDoing the Acceptance Testing",
-  "id": "acceptance-testing-to-validate-newspaper-page-is-working.",
+  "name": "Acceptance testing to validate Collateral Value Positive Test.",
+  "description": "In order to validate that \nCollateral Value is calculated correctly\nDoing the Acceptance Testing",
+  "id": "acceptance-testing-to-validate-collateral-value-positive-test.",
   "keyword": "Feature",
   "tags": [
     {
       "line": 1,
-      "name": "@News"
+      "name": "@CP_Positive"
     }
   ]
 });
 formatter.before({
-  "duration": 9462085600,
+  "duration": 9648616200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 8,
-  "name": "Validate Newspaper page in news247",
+  "name": "Validate that account \"13114\" has collateral bigger than zero",
   "description": "",
-  "id": "acceptance-testing-to-validate-newspaper-page-is-working.;validate-newspaper-page-in-news247",
+  "id": "acceptance-testing-to-validate-collateral-value-positive-test.;validate-that-account-\"13114\"-has-collateral-bigger-than-zero",
   "type": "scenario",
   "keyword": "Scenario",
   "tags": [
     {
       "line": 7,
-      "name": "@News-Positive"
+      "name": "@CP_Positive"
     }
   ]
 });
 formatter.step({
   "line": 9,
-  "name": "I am on the Home Page \"https://www.news247.gr/\"",
+  "name": "I am connected on the database",
   "keyword": "Given "
 });
 formatter.step({
   "line": 10,
-  "name": "I click on newsapapers",
+  "name": "I do query for account \"13114\"",
   "keyword": "When "
 });
 formatter.step({
   "line": 11,
-  "name": "I should see the list of newsapapers",
+  "name": "the collateral value is bigger than zero",
   "keyword": "Then "
+});
+formatter.match({
+  "location": "CP_Positive_Steps.i_am_connected_on_the_database()"
+});
+formatter.result({
+  "duration": 168900500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "https://www.news247.gr/",
-      "offset": 23
+      "val": "13114",
+      "offset": 24
     }
   ],
-  "location": "NewsSteps.i_am_on_the_Home_Page(String)"
+  "location": "CP_Positive_Steps.i_do_query_for_account(String)"
 });
 formatter.result({
-  "duration": 811344400,
+  "duration": 11877000,
   "status": "passed"
 });
 formatter.match({
-  "location": "NewsSteps.i_click_on_newsapapers()"
+  "location": "CP_Positive_Steps.the_collateral_value_is_bigger_than_zero()"
 });
 formatter.result({
-  "duration": 628646200,
-  "status": "passed"
-});
-formatter.match({
-  "location": "NewsSteps.i_should_see_the_list_of_newsapapers()"
-});
-formatter.result({
-  "duration": 3019400500,
+  "duration": 438400,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4870172300,
+  "duration": 633526900,
   "status": "passed"
 });
 });
